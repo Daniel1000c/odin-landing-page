@@ -11,11 +11,23 @@
     font-family: var(--main-text-font);
 }
 
+/*Body formatting*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Format main*/
+main{ 
+    flex: 1;
+}
+
 /*Create container class*/
 .container {
     max-width: 1200px; /* Example max-width */
     margin: 0 auto; /* Center the container */
-    padding: 0 20px;
+    padding: 20px;
 }
 
 /*Root styles*/
@@ -113,6 +125,11 @@ header {
     font-family: var(--main-text-font);
     font-size: 18px;
     padding: 10px; 
+}
+
+/*Format random information*/
+.randomInfo {
+    text-align: center;
 }
 
 /*Format footer*/
