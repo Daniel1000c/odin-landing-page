@@ -25,6 +25,7 @@
     --text-color: #F9FAF8;
     --header-link-color: #E5E7EB;
     --header-logo-color: #F9FAF8;
+    --button-color: #3882F6;
 }
 
 /*Format header*/
@@ -52,10 +53,66 @@ header {
     gap: 20px;
 }
 
-.navigation-bar ul li a{
+.navigation-bar ul li a, .hero-text p{
     text-decoration: none;
     color: var(--header-link-color);
     font-size: 18px;
+}
+
+/*Format hero section*/
+.hero {
+    background-color: var(--dark-background);
+}
+
+/*Format hero content container*/
+.hero-content {
+    display: flex;
+}
+
+/*Format hero text*/
+.hero-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/*Format hero text title*/
+.hero-text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+/*Format hero text*/
+.hero-text p {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+/*Format hero img container*/
+.hero-img-container {
+    flex: 1;
+}
+
+/*Format hero img*/
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+/*Format hero button*/
+.hero-text button {
+    background-color: var(--button-color);
+    display: inline-block;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: var(--header-link-color);
+    font-family: var(--main-text-font);
+    font-size: 18px;
+    padding: 10px; 
 }
 
 /*Format footer*/
