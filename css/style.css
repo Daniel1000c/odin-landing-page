@@ -177,6 +177,46 @@ header {
     padding-right: 50px;
     color: var(--dark-background);
 }
+
+/*Format cta section*/
+.ctaSection {
+    padding: 30px;
+}
+
+/*Format cta section content*/
+.cta-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--button-color);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Format cta text*/
+.cta-text h4 {
+    color: var(--text-color);
+}
+
+.cta-text p {
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+/*Format call to action button*/
+.ctaBtn {
+    text-decoration: none;
+    background-color: var(--button-color);
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
 /*Format footer*/
 footer {
     background-color: var(--dark-background);
